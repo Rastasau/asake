@@ -1,0 +1,47 @@
+email tags
+Basic Email Information Tags:
+{email} - The full email address
+{domain} - The domain part of the email
+{mename} - Capitalized username part of email
+{mename3} - First 3 letters of username in uppercase
+{frmsite} or [frmsite] - Domain name without TLD
+{comapnyname} or {companyname} - Company name derived from domain
+
+Time and Date Tags:
+{year} or [year] - Current year
+{time} - Current time (HH:MM:SS AM/PM)
+{sec} or [sec] - Current seconds
+{date} - Current date (DD Month, YYYY)
+{dayoftheweek} - Current day name
+{monthoftheyear} - Current month name
+[Time_own_format] - Combined date and time
+
+Random Generation Tags:
+{random} - Random string (default length)
+[random] - Random string (10 characters)
+{number} - Random number (default length)
+[number] - Random number (10 digits)
+{secs} - Random string (8 characters)
+
+Encoding Tags:
+{base64email} or [base64email] - Base64 encoded email
+{hexemail} - Hexadecimal encoded email
+{equal} - Equals sign (=)
+
+Special Pattern Tags:
+urlencode(...) - URL encodes the content inside parentheses
+base64{...} - Base64 encodes the content inside braces
+linkbind{...} - Creates a special link binding
+{number(...)} - Generates a random number with specified length
+{random(...)} - Generates a random string with specified length
+{date(...)} - Generates a date with specified days offset
+
+Image Related Tags:
+{image} - Company logo/banner
+{print} - Screenshot of HTML content
+
+Dynamic Content Tags:
+{link} - Dynamic link that can be:
+Original link
+Google redirect link
+403 redirect link
